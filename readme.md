@@ -1,31 +1,18 @@
-# Netlify Microservice Function
+# Create Link FN
 
-## Requirements:
-- netlify-cli
-- git/github
+## Usage
 
-- [ ] Clone this Repo
+- Call This Link To Access The Function
 
-```sh
-git clone https://github.com/thriftshop-fn/template
+```
+${username}-tss-fn-create-link.domain.com/api
 ```
 
-- [ ] Create New API Function
+## Deploy
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriftshop-fn/create-link)
 
-```sh
-netlify functions:create --name api
-```
+## Set Your Domain In Netlify
 
-- [ ] Install Any NPM Dependencies
+- Go to [Settings](https://app.netlify.com/sites/tss-test/settings/general)
 
-```sh
-npm install package1 package2 package3
-```
-
-- [ ] Modify 1 Click Deploy URL
-
-- Replace Button URL With Your Repo Link `https://github.com/thriftshop-fn/YOURFUNCTION`
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriftshop-fn/YOURFUNCTION)
-
-- [ ] Modify template-readme.md and save it as readme.md
+- Click Change Site Name
