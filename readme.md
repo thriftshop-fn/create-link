@@ -19,10 +19,10 @@ PAYMONGO_LIVE_MODE=
 > *Raw JSON PAYLOAD*
 ```json
 {
-		"amount": 100000, // equals 1000.00 PHP
-		"description": "Order Details",
-		"livemode": false,
-		"remarks": "test"
+    "amount": 100000, // equals 1000.00 PHP
+    "description": "Order Details",
+    "livemode": false,
+    "remarks": "test"
 }
 ```
 
