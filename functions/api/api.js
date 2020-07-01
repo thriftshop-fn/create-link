@@ -47,10 +47,13 @@ exports.handler = async function (event) {
     };
     return error;
   }
+
   let livemode = false;
+
   if (PAYMONGO_LIVEMODE === true || PAYMONGO_LIVEMODE == "true") {
     livemode = true;
   }
+
   let payload = {
     data: {
       attributes: {
@@ -61,6 +64,7 @@ exports.handler = async function (event) {
       },
     },
   };
+
   const createLink = async (token) => {
     axios.defaults.headers.common["Authorization"] = "Bearer " + token;
 
@@ -77,6 +81,7 @@ exports.handler = async function (event) {
       return error;
     }
   };
+
   const token = await getApiToken();
   const data = await createLink(token);
 
