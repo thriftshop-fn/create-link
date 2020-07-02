@@ -1,7 +1,7 @@
 {
   "name": "create-link-fn",
   "version": "1.0.0",
-  "description": "## Usage",
+  "description": "Create New Paymongo Link",
   "author": "GoldCoders",
   "license": "ISC",
   "dependencies": {
